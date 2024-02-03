@@ -1,0 +1,46 @@
+<footer id="footer">
+  <section class="split contact">
+    {% if site.data.profile.location != "" %}
+    <section class="alt">
+        <h3>Location</h3>
+        <p>{{site.data.profile.location}}</p>
+      </section>
+    {% endif %}
+    
+    {% if site.data.profile.phone != "" %}
+    <section>
+        <h3>Phone</h3>
+        <p><a href="tel:{{site.data.profile.phone}}">{{site.data.profile.phone}}</a></p>
+      </section>
+    {% endif %}
+   
+    {% if site.data.profile.email %}
+    <section>
+        <h3>Email</h3>
+        <p><a href="mailto:{{site.data.profile.email}}">{{site.data.profile.email}}</a></p>
+      </section>
+    {% endif %}
+    
+    {% if site.data.profile.social.size > 0 %}
+      <section>
+        <h3>Social</h3>
+        <ul class="icons alt">
+          {% for social in site.data.profile.social %}
+            <li>
+              <a href={{social.url}} class="icon {{social.fontawesome_icon}}" rel="nofollow" target="_blank">
+                <span class="label">{{link.name}}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </section>
+</footer>
+
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; {{site.data.profile.name}} 2022</li>
+  <!-- <li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li>
+  <li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul> -->
+</div>

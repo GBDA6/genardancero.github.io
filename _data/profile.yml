@@ -1,0 +1,246 @@
+# Site
+site_title: "Genard Briane Ancero"
+
+# Personal Information
+name: "Genard Briane Ancero"
+short_description: "Senior 3D Artist"
+description: "Senior 3D Artist with combined 7 years of experience in triple A Videogame Industry, 3D
+Production Management and Metaverse Building. Experienced in modelling and texturing of
+different subjects - architecture, environment art, props, weapons, vehicles and vegetation.
+Experienced in setting up technical, artistic and production workflows; successfully led projects of
+different subjects; and provided artistic support and guidance for the team in a day to day basis.
+Skilled in next-gen 3D workflow, game engines, 3D asset integration, story-telling through art, art
+fundamentals, and art production management."
+current-position-name: "Lead 3D Artist"
+current-company-name: "Ubisoft Philippines"
+current-company-website: "https://www.ubisoft.com/en-us/company/careers/locations/taguig"
+location: "Cavite, Philippines 🇵🇭"
+phone: "+63 927 009 4498"
+email: "genardancero@gmail.com"
+social:
+  [
+    {
+      name: "Gmail",
+      url: "mailto:genardancero@gmail.com",
+      fontawesome_icon: "fa-envelope",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/genard-ancero/",
+      fontawesome_icon: "fa-linkedin",
+    },
+    {
+      name: "ArtStation",
+      url: "https://www.artstation.com/gbancero",
+      fontawesome_icon: "fa-artstation",
+    },
+  ]
+
+# Projects
+unity_editor_tools:
+  [
+    {
+      image_path: "/images/art/car-1.jpg",
+    },
+    {
+     image_path: "/images/art/skull-1.jpg",
+    },
+  ]
+
+# Experience
+experiences:
+  [
+    {
+      title: "3D Design Associate Manager",
+      company: "Accenture - Metaverse Continuum Group",
+      company_logo: "/images/companies/accenture.png",
+      company_website: "https://www.accenture.com/ph-en/services/metaverse-index",
+      location: "Bonifacio Global City, Taguig",
+      duration: "2022 - Present",
+      header: "Leads research & development and capability development for upcoming projects, pipeline improvements and relevant tools.",
+      descriptions:
+        [
+          "Works with other Managers and Leads on managing the Metaverse Continuum Group - a Capability Group of Accenture focusing on digitally enhanced worlds, mixed realities and digitally interactive products.",
+          "Defines creative direction for projects and supervises the production to ensure art direction and client’s vision is enforced.",
+          "Leads the team on problem solutioning, project troubleshooting and managing production risks.",
+          "Communicates with clients regarding feedback, planning and progress reviews.",
+          "Reviews assets and provides meaningful feedback to team members.",
+          "Creates benchmarks assets to be used as reference for the duration of the project."
+        ],
+    },
+    {
+      title: "Lead 3D Artist",
+      company: "Ubisoft Philippines",
+      company_logo: "/images/companies/ubisoft.jpg",
+      company_website: "https://www.ubisoft.com/en-us/",
+      location: "Bonifacio Global City, Taguig",
+      duration: "2022 - 2022",
+      header: "Responsible for guiding the team in order to maintain the vision and quality set by the Art Director and the project.",
+      descriptions:
+        [
+          "Responsible for setting quality standards and benchmark assets on pre-production and planning stage.",
+          "Communicates and solves production risk, dependency and blockers that the team experiences.",
+          "Identifies and defines best practices, workflows and pipeline in art and technical side of production to improve efficiency and effectivity of the team",
+          "Reviews assets and works with other Lead Artists and Art Directors to keep the project cohesive on artistic and technical aspects",
+          "Onboard and train new team members to align them to the team's vision, art quality and velocity."
+        ],
+    },
+    {
+      title: "Associate Lead 3D Artist",
+      company: "Ubisoft Philippines",
+      company_logo: "/images/companies/ubisoft.jpg",
+      company_website: "https://www.ubisoft.com/en-us/",
+      location: "Bonifacio Global City, Taguig",
+      duration: "2020 - 2022",
+      header: "Supports the Lead Artist and Art Director on validating tasks and asset to be cohesive on art direction and project's specifications.",
+      descriptions:
+        [
+          "Supports newcomers' onboarding and training by providing daily support and intensive peer reviews.",
+          "Works closely with QA and Tech Team to develop and upgrade workflows and tools that will improve the team's productivity.",
+          "Provides hands on support to peers and helps identifies dependencies, risks and blockers.",
+          "Creates benchmark assets and defines metrics/placeholders for upcoming mandates or projects."
+        ],
+    },
+    {
+      title: "Intermediate 3D Artist",
+      company: "Ubisoft Philippines",
+      company_logo: "/images/companies/ubisoft.jpg",
+      company_website: "https://www.ubisoft.com/en-us/",
+      location: "Bonifacio Global City, Taguig",
+      duration: "2019 - 2020",
+      header: "Turns 2D concept into quality 3D videogame assets within or before the given deadline.",
+      descriptions:
+        [
+          "Responsible for shipping complex assets and taking over tasks that are behind on deadlines and quality.",
+          "Supports Lead Artist on creating metrics and benchmark assets for different mandates."
+        ],
+    },
+    {
+      title: "Junior 3D Artist",
+      company: "Ubisoft Philippines",
+      company_logo: "/images/companies/ubisoft.jpg",
+      company_website: "https://www.ubisoft.com/en-us/",
+      location: "Bonifacio Global City, Taguig",
+      duration: "2017 - 2019",
+      header: "Turns 2D concept into quality 3D videogame assets within the given deadline.",
+      descriptions:
+        [
+          "Receives and address feedback given by Lead Artist and Art Directors.",
+          "Works closely with peers and support the team in planning stages."
+        ],
+    },
+    {
+      title: "Freelance 3D Artist",
+      company: "-",
+      company_logo: "-",
+      duration: "2017 - 2017",
+      header: "Works with different clients of different industries on turning their concept design and ideas into high quality 3D models.",
+    },
+  ]
+
+# Interlude
+interlude_header: "Expertise and Tools"
+skills:
+  [
+    {
+      fontawesome_icon: "fa-users",
+      header: "Expertise",
+      descriptions:
+        [
+          "3D Modelling and Texturing",
+          "3D Production Workflow",
+          "Hardsurface Modelling",
+          "Procedural Texturing",
+          "Art Direction",
+          "Asset Optimization and Integration",
+          "Art Production Management",
+          "Client Management",
+          "Effective Communication",
+        ],
+      additional_info: "",
+    },
+    {
+      fontawesome_icon: "fa-list",
+      header: "Tools",
+      body: "",
+      descriptions: [
+        "3Ds Max",
+        "Maya",
+        "Zbrush",
+        "Substance Painter",
+        "Substance Designer",
+        "Unreal Engine",
+        "Unity",
+        "Marmoset Toolbag"
+      ]
+    },
+  ]
+
+projects:
+  [
+    {
+      title: "Skull & Bones",
+      subtitle: "Ubisoft",
+      youtube_id: "aJy3FXGb6ok",
+      header: "A currently on-going passion project done in <strong>UNITY</strong> meant to explore new ways of making a <strong>modular codebase.</strong>",
+      descriptions:
+        [
+          "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+          "Meant for mobile devices: <strong>Android and iOS.</strong>",
+          "Done in: <strong>Unity, C#</strong>",
+          "The project was done <strong>from scratch meaning from conceptualization, prototypes</strong>, and then to what it is now.",
+          "It was meant to create a simple game in my past time, but <strong>mostly to enhance my skills on creating simple yet really modular systems.</strong>",
+          "At the moment, the game has many systems ranging from a <strong>Behavior Tree-like to handle the game flow, Data Serialization with Versioning, Weapon System, Inventory System, Upgrades System</strong>, and many more...",
+          "Other systems planned are <strong>Accounts (for Cloud Save), Custom Online Leaderboards (with its own backend), Game Economy, Shop, etc..</strong>",
+        ],
+      links:
+        [
+          {
+            title: "View Source on GitHub",
+            url: "https://github.com/admoraguilar/chaos-unity/tree/develop",
+          },
+        ],
+    },
+    {
+      title: "After Image Remastered",
+      subtitle: "Team FROLIC - Apr 2017",
+      youtube_id: "B3nhaIevAGY",
+      header: "A third person action-adventure game about a dead man who had been revived using cybernetics by the mysterious Agaran Industries.",
+      descriptions:
+        [
+          "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+          "Done in: <strong>Unreal Engine 4 using C++ and released for PC.</strong>",
+          "Project took 3 months to make with a team of 8 people for our second college thesis project.",
+          "Responsible for <strong>making tools such as an event system that could be used for decoupled communication between objects</strong>. The tool could also be <strong>used through Unreal's Blueprint hence empowering our designers.</strong>",
+          "Responsible for general parts of the game such as design, narrative, UX, and cinematics.",
+        ],
+      links:
+        [
+          {
+            title: "View Source on GitHub",
+            url: "https://github.com/wishfuldroplet/ue4_afterimage2",
+          },
+        ],
+    },
+  ]
+
+more_projects:
+  [
+    {
+      title: "Think Out of the Box",
+      subtitle: "Team FROLIC - Jul 2015",
+      youtube_id: "ByGisEyetOM",
+      header: "",
+      descriptions:
+        [
+          "Done in: <strong>Unity 4 with a team of 4 people and released for PC. </strong>",
+          "Project was a reimagined version of our game that won in Global Game Jam Benilde 2015.",
+          "Responsible for programming everything, project took a week to make.",
+          "Responsible for <strong>First Person Controller system, Puzzle mechanics, UI systems, Audio Soundscapes.</strong>",
+        ],
+      links: [],
+    },
+  ]
+
+# Thank You
+thank_you_message: "Hey thanks alot for your time reading this! If you want to contact me you could always do through the ways below! Have a great rest of the day!"

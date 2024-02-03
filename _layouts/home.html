@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+
+	<!-- <body class="is-loading"> -->
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Intro -->
+			<div style="clear: both;" id="intro">
+				<h1>{{site.data.profile.name}}</h1>
+				<h2>{{site.data.profile.short_description}}</h2>
+				<p>
+					{{site.data.profile.description}} <br />
+					{% if site.data.profile.position-name != ""
+					   and site.data.profile.current-company-name != "" 
+					   and site.data.profile.current-company-website != "" %}
+					Currently a {{site.data.profile.current-position-name}} @
+					<a href="{{site.data.profile.current-company-website}}" target="_blank" rel="nofollow">
+						{{site.data.profile.current-company-name}}
+					</a>  in {{ site.data.profile.location }}
+					{% endif %}
+				</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.data.profile.name}}</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				{% include nav.html %}
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<section class="post"> {{content}} </section>
+            </div>
+            
+			<!-- Footer -->
+			{% include foot.html %}
+
+		</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+		{% include tracking.html %}
+
+		<script src="https://unpkg.com/vanilla-back-to-top@7.2.0/dist/vanilla-back-to-top.min.js"></script>
+		<script>addBackToTop({
+		diameter: 56,
+		backgroundColor: '#3F3E46',
+		textColor: '#fff'
+		})</script>
+
+		<script src="assets/js/jquery.min.js"></script>
+		{% include lightbox.html %}
+
+	</body>
+</html>

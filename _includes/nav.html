@@ -1,0 +1,27 @@
+<ul class="links">
+  
+  <!-- <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li> -->
+ 
+  <li class="active"><a href="#intro" class="scrolly">Welcome!</a></li>
+  <li class="active"><a href="#cv" class="scrolly">CV</a></li>
+  <li class="active"><a href="#experience" class="scrolly">Experience</a></li>
+  <li class="active"><a href="#interlude" class="scrolly">{{site.data.profile.interlude_header}}</a></li>
+  <li class="active"><a href="#projects" class="scrolly">Projects</a></li>
+  <li class="active"><a href="#education" class="scrolly">Education</a></li>
+  <li class="active"><a href="#moreprojects" class="scrolly">More</a></li>
+</ul>
+
+<ul class="icons">
+  {% if site.data.profile.social.size > 0 %}
+    {% for social in site.data.profile.social %}
+      <li>
+        <a href={{social.url}} class="icon {{social.fontawesome_icon}}" rel="nofollow" target="_blank">
+          <span class="label">{{link.name}}</span>
+        </a>
+      </li>
+    {% endfor %}
+  {% endif %}
+</ul>

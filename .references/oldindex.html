@@ -1,0 +1,148 @@
+---
+layout: home
+description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+sitemap:
+priority: 1.0
+lastmod: 2017-11-02
+changefreq: weekly
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Intro -->
+			<div id="intro">
+				<h1>{{site.data.profile.name}}</h1>
+				<h2>{{site.data.profile.short-description}}</h2>
+				<p>
+					{{site.data.profile.description}}
+					{% if site.data.profile.position-name != ""
+								and site.data.profile.current-company-name != "" 
+								and site.data.profile.current-company-website != "" %}
+					Currently a {{site.data.profile.current-position-name}} @
+					<a href="{{site.data.profile.current-company-website}}" target="_blank" rel="nofollow">
+						{{site.data.profile.current-company-name}}
+					</a>
+					{% endif %}
+				</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.data.profile.name}}</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				{% include nav.html %}
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<section class="post">
+					<h2>About our Site</h2>
+
+					<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+					
+					<p>
+						Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+					
+						Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+					</p>
+					
+					
+					<h3>Content is Important</h3>
+					<div class="box">
+					  <p>
+					  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+					  </p>
+					</div>
+					
+					<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+					
+					On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+				</section>
+			</div>
+
+			<!-- <div id="main">
+				<!~~ Featured Post ~~>
+				<article class="post featured">
+					<header class="major">
+						<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
+						<p>With only a few edits, you can have a stunningly beautiful website <br />
+							nearly out of the box. Of course... you can always take it further <br />
+							and make it something even more amazing!</p>
+					</header>
+					<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+					<p>Regardless of your website's function, the homepage is what brings the user in.
+						If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you
+						might deter some visitors.</p>
+					<p>Your homepage must clearly describe what your site is about.
+						Having engaging content will in this manner enable you to offer and it will make your customers more
+						inclined to purchase from you. Content is a way to position your organization in the correct place
+						for your clients to discover you.
+					</p>
+					<p>
+						In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole
+						advertising toolbox! Rather than making your content around your promoting technique, it's
+						limitlessly more productive to fabricate your showcasing around your content.
+					</p>
+
+				</article>
+
+				<!~~ Posts ~~>
+				<section class="posts">
+					{% for post in site.posts limit:3 %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+							<article>
+								<header>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+								</header>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}"
+										alt="" /></a>
+								<p>{{ post.excerpt }}</p>
+								<ul class="actions">
+									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							{% if mod3 == 0 %}
+							<article>
+								<header>
+									<h2><a href="#">Sponsored</a></h2>
+								</header>
+
+							</article>
+						{% endif %}
+					{% endfor %}
+
+				</section>
+			</div> -->
+
+			<!-- Footer -->
+			{% include foot.html %}
+
+		</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+		{% include tracking.html %}
+
+	</body>
+</html>
