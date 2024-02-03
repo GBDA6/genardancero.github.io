@@ -9,10 +9,7 @@ sitemap:
 <section>
   <!-- WELCOME -->
   <header class="major" id="unityeditortools">
-	  <h1>Highlight</h1>
-    <p>
-      Several highlights of my work.
-    </p>
+	  <h1>Highlights</h1>
   </header>
   <div class="box alt">
     <div class="row 50% uniform">
@@ -34,12 +31,8 @@ sitemap:
   <header class="major" id="cv">
     <h1>CV</h1>
   </header>
-  <ul class="actions fit" >
-    <li><a href="https://www.kickresume.com/cv/admoraguilar/" class="button special fit center" target="_blank">CV on KickResume</a></li>
-    <li><a href="https://www.cakeresume.com/admor-aloysious-aguilar" class="button special fit center" target="_blank">CV on CakeResume</a></li>
-  </ul>
 
-<a href="documents/CV - Aguilar, Admor.pdf" class="button special fit center" download>Download Printable CV</a>
+<a href="documents/CV - Ancero, Genard Briane.pdf" class="button special fit center" download>Download Printable CV</a>
 
   <hr/>
   
