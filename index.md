@@ -29,10 +29,14 @@ sitemap:
 
   <!-- CVs -->
   <header class="major" id="cv">
-    <h1>CV</h1>
+    <h1>CV / SOCIALS</h1>
   </header>
-
-<a href="documents/CV - Ancero, Genard Briane.pdf" class="button special fit center" download>Download Printable CV</a>
+  <ul class="actions fit" >
+    {% for social in site.data.profile.social %}
+        <li><a href="{{ social.url }}" class="button special fit center" target="_blank">{{ social.name }}</a></li>
+    {% endfor%}
+  </ul>
+  <a href="documents/CV - Ancero, Genard Briane.pdf" class="button special fit center" download>Download Printable CV</a>
 
   <hr/>
   

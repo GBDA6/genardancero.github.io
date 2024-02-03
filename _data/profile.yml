@@ -14,6 +14,7 @@ fundamentals, and art production management."
 current-position-name: "3D Design Associate Manager"
 current-company-name: "Accenture - Metaverse Continuum Group"
 current-company-website: "https://www.accenture.com/ph-en/services/metaverse-index"
+current-company-location: "Bonifacio Global City, Taguig, Philippines 🇵🇭"
 location: "Cavite, Philippines 🇵🇭"
 phone: "+63 927 009 4498"
 email: "genardancero@gmail.com"
@@ -32,7 +33,7 @@ social:
     {
       name: "ArtStation",
       url: "https://www.artstation.com/gbancero",
-      fontawesome_icon: "fa-paint-brush",
+      fontawesome_icon: "fa-caret-up",
     },
   ]
 
@@ -40,10 +41,22 @@ social:
 unity_editor_tools:
   [
     {
+     image_path: "/images/art/skull-1.jpg",
+    },
+    {
+     image_path: "/images/art/skull-2.jpg",
+    },
+    {
+     image_path: "/images/art/skull-3.jpg",
+    },
+    {
       image_path: "/images/art/car-1.jpg",
     },
     {
-     image_path: "/images/art/skull-1.jpg",
+      image_path: "/images/art/car-2.jpg",
+    },
+    {
+      image_path: "/images/art/car-3.jpg",
     },
   ]
 
@@ -179,47 +192,28 @@ skills:
 projects:
   [
     {
-      title: "Skull & Bones",
+      title: "Skull and Bones",
       subtitle: "Ubisoft",
       youtube_id: "aJy3FXGb6ok",
-      header: "A currently on-going passion project done in <strong>UNITY</strong> meant to explore new ways of making a <strong>modular codebase.</strong>",
+      header: "Led the team's delivery of Ships of different sizes and complexities covering all aspects of Ship Building - exterior, interior, modular assets, sailsplan, ship props and cosmetics.",
       descriptions:
         [
-          "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
-          "Meant for mobile devices: <strong>Android and iOS.</strong>",
-          "Done in: <strong>Unity, C#</strong>",
-          "The project was done <strong>from scratch meaning from conceptualization, prototypes</strong>, and then to what it is now.",
-          "It was meant to create a simple game in my past time, but <strong>mostly to enhance my skills on creating simple yet really modular systems.</strong>",
-          "At the moment, the game has many systems ranging from a <strong>Behavior Tree-like to handle the game flow, Data Serialization with Versioning, Weapon System, Inventory System, Upgrades System</strong>, and many more...",
-          "Other systems planned are <strong>Accounts (for Cloud Save), Custom Online Leaderboards (with its own backend), Game Economy, Shop, etc..</strong>",
-        ],
-      links:
-        [
-          {
-            title: "View Source on GitHub",
-            url: "https://github.com/admoraguilar/chaos-unity/tree/develop",
-          },
+          "Led the team's delivery of different Naval Weapons from planning, modelling, texturing, optimization and engine integration.",
+          "Enforced art direction and style pillars all throughout production to keep the project's vision coherent within the team.",
+          "Created trim sheets and tiling textures for usage of props and architecture using substance painter and substance designer.",
+          "Communicates feedback from Lead studio and guides team's feedback iteration.",
+          "Works closely with Technical Artists and Game testers to further improve pipeline.",
         ],
     },
     {
-      title: "After Image Remastered",
-      subtitle: "Team FROLIC - Apr 2017",
-      youtube_id: "B3nhaIevAGY",
-      header: "A third person action-adventure game about a dead man who had been revived using cybernetics by the mysterious Agaran Industries.",
+      title: "Assassin's Creed Valhala",
+      subtitle: "Ubisoft",
+      youtube_id: "ssrNcwxALS4",
+      header: "Worked on shipping complex props and environment assets ranging from - furnitures, structures, static weapons, clutter assets and fabrics.",
       descriptions:
         [
-          "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
-          "Done in: <strong>Unreal Engine 4 using C++ and released for PC.</strong>",
-          "Project took 3 months to make with a team of 8 people for our second college thesis project.",
-          "Responsible for <strong>making tools such as an event system that could be used for decoupled communication between objects</strong>. The tool could also be <strong>used through Unreal's Blueprint hence empowering our designers.</strong>",
-          "Responsible for general parts of the game such as design, narrative, UX, and cinematics.",
-        ],
-      links:
-        [
-          {
-            title: "View Source on GitHub",
-            url: "https://github.com/wishfuldroplet/ue4_afterimage2",
-          },
+          "Guided team members on improving assets that do not meet the art criteria.",
+          "Shipped assets from concept translation to engine integration.",
         ],
     },
   ]
@@ -227,18 +221,14 @@ projects:
 more_projects:
   [
     {
-      title: "Think Out of the Box",
-      subtitle: "Team FROLIC - Jul 2015",
-      youtube_id: "ByGisEyetOM",
+      title: "The Crew 2",
+      subtitle: "Ubisoft",
+      youtube_id: "MXN1nmL-DQU",
       header: "",
       descriptions:
         [
-          "Done in: <strong>Unity 4 with a team of 4 people and released for PC. </strong>",
-          "Project was a reimagined version of our game that won in Global Game Jam Benilde 2015.",
-          "Responsible for programming everything, project took a week to make.",
-          "Responsible for <strong>First Person Controller system, Puzzle mechanics, UI systems, Audio Soundscapes.</strong>",
+          "Worked on shipping architecture assets and static vehicle props.",
         ],
-      links: [],
     },
   ]
 
